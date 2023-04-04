@@ -1,0 +1,15 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../../consts";
+---
+
+<header class="p-4 lg:p-6 font-mono mb-6 grid grid-cols-4 xl:grid-cols-5 divide-x-2 divide-white md:divide-x-0">
+	<heading class="text-lg font-medium cols-span-1 xl:col-span-2">
+		{SITE_TITLE}
+	</heading>
+	<nav class="col-span-3 grid grid-cols-3 justify-evenly lg:place-items-end">
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/portfolio">Portfolio</HeaderLink>
+		<HeaderLink href="/about">Über</HeaderLink>
+	</nav>
+</header>
