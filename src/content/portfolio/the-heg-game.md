@@ -9,6 +9,7 @@ heroImage: "/portfolio/the-heg-game.png"
 
 **Link zum Github-Repository: [diepoe/heg-game](https://github.com/diepoe/heg-game)**
 
+The HEGame ist ein Mobile-Game, welches durch die Entwicklung von [world-of-heg](/portfolio/world-of-heg) inspiriert wurde. Der große Unterschied besteht neben der Benutzeroberfläche in dem Punkt, dass das Mobile Game im Schulgebäude mithilfe von QR-Codes gepsielt wird, sprich in Form einer Schnitzeljagd von Raum zu Raum. Diese Schnitzeljagd ändert sich von Durchlauf zu Durchlauf, womit anhaltender Spielspaß & Knobelei garantiert sind!
 
 ## Genutzte Technologien
 - HTML, Typescript & CSS
