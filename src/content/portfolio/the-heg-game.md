@@ -13,5 +13,5 @@ The HEGame ist ein Mobile-Game, welches durch die Entwicklung von [world-of-heg]
 
 ## Genutzte Technologien
 - HTML, Typescript & CSS
-- Frameworks: [Svelte](https://svelte.dev) (beide JavaScript) & [Tailwind CSS](https://tailwindcss.com)
+- Frameworks: [Svelte](https://svelte.dev) & [Tailwind CSS](https://tailwindcss.com)
 - [Capacitor JS](https://capacitorjs.com) als native Runtime für Android & iOS (inklusive diverser Plugins)
