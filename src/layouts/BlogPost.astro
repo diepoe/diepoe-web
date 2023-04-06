@@ -12,13 +12,18 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 	<article class="prose prose-invert text-white m-auto">
 		{
 			heroImage && (
-				<picture class="max-h-[35vh] md:max-h-[40vh] w-auto m-auto mb-4 xl:mb-6">
+				<picture>
 					<source
 						type="image/webp"
 						srcset={heroImage.replace("png", "webp")}
 					/>
 					<source type="image/png" srcset={heroImage} />
-					<img src={heroImage} alt={title} loading="lazy" />
+					<img
+						src={heroImage}
+						alt={title}
+						loading="lazy"
+						class="max-h-[35vh] md:max-h-[40vh] w-auto m-auto mb-4 xl:mb-6"
+					/>
 				</picture>
 			)
 		}
