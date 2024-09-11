@@ -4,9 +4,12 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 
+
 const posts = (await getCollection("portfolio")).sort(
 	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
-);
+  );
+
+const shownPosts = posts.filter((post) => post.data.description != "hidden")
 ---
 
 <BaseLayout>
@@ -16,7 +19,7 @@ const posts = (await getCollection("portfolio")).sort(
 	<section>
 		<ul class="space-y-4">
 			{
-				posts.map((post) => (
+				shownPosts.map((post) => (
 					<li class="p-4 group border-white border-2 hover:bg-white">
 						<header>
 							<a href={`/portfolio/${post.slug}/`} class="font-bold group-hover:text-bluescreen">
