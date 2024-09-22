@@ -4,15 +4,21 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				bluescreen: "#0827F5"
+				bluescreen: "#0827F5",
+        bodgray: "#aaaaaa"
 			},
-			typography: {
+			typography: (theme) => ({
 				DEFAULT: {
 					css: {
-						'--tw-prose-invert-bullets': '#ffffff',
-					}
+						'--tw-prose-bullets': theme('colors.white'),
+						'--tw-prose-invert-bullets': theme('colors.white'),
+						'--tw-prose-counters': theme('colors.white'),
+						'--tw-prose-invert-counters': theme('colors.white'),
+						'--tw-prose-quote-borders': theme('colors.white'),
+						'--tw-prose-invert-quote-borders': theme('colors.slate.50'),
+          }
 				}
-			},
+			}),
 		},
 	},
 	plugins: [require('@tailwindcss/typography')],
