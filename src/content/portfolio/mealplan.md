@@ -20,6 +20,16 @@ heroImage: ""
 2. Overnight Oats über Nacht ziehen lassen
 3. Mit Früchten (Apfel, Trauben etc.) und Zimt verfeinert genießen
 
+# Beilagen & Salate
+
+## Gurkensalat
+
+- Gurke
+- Essig
+- Zwiebel
+- Salz
+- [optional] Dill
+
 # Hauptmahlzeit
 
 ## Couscus (Taboulé)
@@ -56,4 +66,14 @@ Anschließend mit Gewürzen abschmecken (Pfeffer, Salz, Basilikum etc.)
 - [optional] Paprika edelsüß
 
 Eier mit Haferflocken & Milch verrühren und unter die Nudeln geben 
+
+> statt der Milch lässt sich zum Auflockern auch 1 Schluck Mineralwasser nutzen
+
+## Milchreis (inkl. Mealprep)
+
+- 2 Tassen Milch
+- 1 Tasse Milchreis
+- [optional] 1 Ei & Zitronenschale; zum Süßen Honig
+
+Milch aufkochen, dann Reis einrühren und für 30 Minuten unter gelegentlichem Umrühren ziehen lassen; danach Ei & geriebene Zitronenschale unterrühren und mit Honig süßen.
 
