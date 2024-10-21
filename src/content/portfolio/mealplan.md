@@ -58,6 +58,20 @@ Anschließend mit Gewürzen abschmecken (Pfeffer, Salz, Basilikum etc.)
 
 > Kombinierbar mit Rührei
 
+### italienischer Nudelsalat
+
+- *Dressing*
+    - Öl
+    - Essig
+    - Pfeffer
+    - Salz
+    - Senf
+- Nudeln
+- Tomate
+- Gurke
+- Mozzarella
+---
+ 
 ## Rührei
 
 - 1-3 Eier
@@ -77,3 +91,8 @@ Eier mit Haferflocken & Milch verrühren und unter die Nudeln geben
 
 Milch aufkochen, dann Reis einrühren und für 30 Minuten unter gelegentlichem Umrühren ziehen lassen; danach Ei & geriebene Zitronenschale unterrühren und mit Honig süßen.
 
+## Wraps
+
+## Eintopf
+
+## Kartoffelspalten
