@@ -17,17 +17,20 @@ const shownPosts = posts.filter((post) => post.data.description != "hidden")
 		<h1>Portfolio</h1>
 	</header>
 	<section>
-		<ul class="space-y-4">
+		<ul class="gap-3 grid grid-cols-1 xl:grid-cols-3">
 			{
 				shownPosts.map((post) => (
-					<li class="p-4 group border-white border-2 hover:bg-white">
-						<header>
+					<li class="p-4 group border-white border-2 hover:bg-white xl:flex xl:flex-col xl:justify-evenly">
+						<img src={post.data.heroImage} alt={post.data.title} class="m-auto mb-2 w-auto max-h-40 hidden xl:block">
+						<header class="w-full xl:text-center">
 							<a href={`/portfolio/${post.slug}/`} class="font-bold group-hover:text-bluescreen">
 								{post.data.title}
 							</a>
 						</header>
 
-						<FormattedDate className="group-hover:text-bluescreen" date={post.data.pubDate} />
+						<span class="block xl:w-full xl:text-center">
+							<FormattedDate className="group-hover:text-bluescreen" date={post.data.pubDate} />
+						</span>
 					</li>
 				))
 			}
