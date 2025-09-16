@@ -9,6 +9,15 @@ heroImage: "/portfolio/physio-leddin-de.png"
 
 Webseite für einen Physiotherapeuten.
 
+## Responsive Design
+
+Neben der generellen Desktop-Ansicht wurde die Website für die Bedienung mit Smartphones optimiert.
+
+<div class="flex justify-evenly w-1/2">
+    <img src="/portfolio/physio-leddin-testimonial-01.png" alt="Responsive Design on physio-leddin.de" />
+    <img src="/portfolio/physio-leddin-testimonial-02.png" alt="Responsive Design on physio-leddin.de" />
+</div>
+
 ## Genutzte Technologien
 
 - Astro.js
